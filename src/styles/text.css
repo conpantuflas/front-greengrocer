@@ -1,0 +1,20 @@
+
+#primerdiv{
+    position: absolute;
+    top: 1%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    color: rgb(59, 143, 10);
+}
+
+#primerdiv span{
+    font-size: 12vw;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0,0,0,0.8);
+}
+
+#primerdiv span:not(:first-child){
+    margin-left: -0.24em;
+}

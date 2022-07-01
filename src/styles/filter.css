@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+fieldset{
+    top:55%;
+    left: 5%;
+    position: absolute;
+    z-index: 5;
+    width: 20%;
+    height: 30%;
+    backdrop-filter:grayscale(100%);
+    border-style:dashed;
+    font-family: 'Arima', cursive;
+    font-size: 2rem;
+}
+
+#display-filter{
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.label-filter{
+    display: block;
+    margin-top: 1.2rem;
+    font-family: 'Arima', cursive;
+    font-size: 1rem;
+}
+
+.input-filter{
+    display: block;
+    margin: 2rem 2rem;
+}
+
+#button-form{
+    background:rgba(118, 226, 118, 0.644);
+    border: none;
+    border-radius: 10px;
+    width: 12rem;
+    height: 2rem;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    font-family: 'Arima', cursive;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+#content-search{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:8%;
+}
+
+#search-in-center{
+    text-align: center;
+    background-color: rgba(118, 226, 118, 0.644);
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+#label-search{
+    font-family: 'Arima', cursive;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+#input-search{
+    border: none;
+    height: 2.1rem;
+    border-radius: 30px;
+    width: 25rem;
+    cursor: pointer;
+}

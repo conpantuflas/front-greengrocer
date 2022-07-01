@@ -1,0 +1,40 @@
+#content-oneElement{
+    top:57%;
+    left: 50%;
+    position: absolute;
+    z-index: 5;
+    font-size: 2rem;
+    padding: 1rem;
+    backdrop-filter: grayscale(100%);
+    border: 1px solid gray;
+    border-style: dashed;
+}
+
+
+#image-oneElement{
+    height: 18rem;
+    width: 12rem;
+    object-fit: cover;
+  
+}
+
+#title-oneElement{
+    top:70%;
+    left: 40%;
+    font-size: 1rem;
+    font-family: 'Arima', cursive;
+    margin: 0;
+    position: absolute;
+    z-index: 6;
+}
+
+#price-oneElement{
+    top:75%;
+    left: 26%;
+    font-size: 2rem;
+    font-family: 'Arima', cursive;
+    margin: 0;
+    position: absolute;
+    z-index: 6;
+} 
+
